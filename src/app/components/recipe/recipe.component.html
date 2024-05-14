@@ -1,0 +1,7 @@
+<div class="recipeContainer" [ngClass]="{ highlighted: isHighlighted }" (click)="onClick()">
+    <h6><b>Name:</b> {{recipe.title}}</h6>
+    <h6><b>Number of Servings:</b> {{recipe.numServings}}</h6>
+    <div class="pageFooter">
+        <p><b>Tags:</b> {{recipe.tags.join(', ')}}</p>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+.pageFooter {
+    border-top: 1px solid steelblue;
+}
+
+.recipeContainer{
+    width: 200px;
+    border: 3px solid;
+    margin: 20px;
+}
+
+.highlighted {
+    background-color: pink;
+}

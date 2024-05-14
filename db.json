@@ -1,0 +1,26 @@
+{
+    "recipes": [
+      {
+        "id": 1,
+        "title": "Tofu Scramble",
+        "numServings": 2,
+        "tags": [
+            "vegan"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Protein Shake",
+        "numServings": 1,
+        "tags": [
+            "vegan", "gluten-free"
+        ]
+      },
+      {
+        "id": 1,
+        "title": "Trash",
+        "numServings": 4,
+        "tags": []
+      }
+    ]
+  }
