@@ -11,7 +11,6 @@ export class RecipeComponent {
   isHighlighted: boolean = false;
 
   onClick(): void {
-    console.log("Highlight changing");
     this.isHighlighted = !this.isHighlighted;
   }
 }

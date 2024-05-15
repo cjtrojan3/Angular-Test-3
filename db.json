@@ -6,7 +6,9 @@
         "numServings": 2,
         "tags": [
             "vegan"
-        ]
+        ],
+        "img": "https://plantbasedonabudget.com/wp-content/uploads/2023/01/87-Tofu-Scramble-Plant-Based-on-a-Budget-8-819x1024.jpg",
+        "shortDescription": "Well-rounded breakfast I make."
       },
       {
         "id": 2,
@@ -14,13 +16,17 @@
         "numServings": 1,
         "tags": [
             "vegan", "gluten-free"
-        ]
+        ],
+        "img": "https://www.eatingwell.com/thmb/krU3m912_bAuJOvKoXK6X7kuJP4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/EWL-261428-chocolate-peanut-butter-protein-shake-Hero-02-e49db6f2f2db4c04b6f4807e54ca3ee0.jpg",
+        "shortDescription": "Easy."
       },
       {
         "id": 1,
         "title": "Trash",
         "numServings": 4,
-        "tags": []
+        "tags": [],
+        "img": "https://www.toter.com/sites/default/files/2022-08/Toter_64Gallon_TwoWheelCan_Graystone_25564_Main.png",
+        "shortDescription": "It'll have to do."
       }
     ]
   }

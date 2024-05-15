@@ -1,7 +1,8 @@
-<div class="recipeContainer" [ngClass]="{ highlighted: isHighlighted }" (click)="onClick()">
-    <h6><b>Name:</b> {{recipe.title}}</h6>
-    <h6><b>Number of Servings:</b> {{recipe.numServings}}</h6>
-    <div class="pageFooter">
-        <p><b>Tags:</b> {{recipe.tags.join(', ')}}</p>
+<div class="card w-50" [ngClass]="{ highlighted: isHighlighted }" (click)="onClick()">
+    <img class="card-img-top" src={{recipe.img}} alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{recipe.title}}</h5>
+      <h6 class="card-subtitle mb-2 text-muted">{{recipe.tags.join(', ')}}</h6>
+      <p class="card-text">{{recipe.shortDescription}}</p>
     </div>
-</div>
+  </div>

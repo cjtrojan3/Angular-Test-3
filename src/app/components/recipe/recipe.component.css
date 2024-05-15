@@ -11,3 +11,7 @@
 .highlighted {
     background-color: pink;
 }
+
+.card {
+    flex: 1 0 auto;
+}
